@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/initializr" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-client-refresh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-server-authenticating" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-server-health" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-feign-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-factory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-feign-logging" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-feign-manual" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-feign-multiple-params" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-ribbon-customizing-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix-turbine-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-business-ribbon-without-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie-feign-manual" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery-business" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-discovery-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-file-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-gateway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-gateway-zuul-aggregation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-gateway-zuul-fallback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-gateway-zuul-file-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-gateway-zuul-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-hystrix-turbine-mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user-bak" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user-trace" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user-trace-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user-with-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/entity" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/learn/controller" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-sidecar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-sidecar-client-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/java/com/ljm/springcloud/controller/UserController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/java/com/ljm/springcloud/entity/User.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/controller/UserController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/entity/User.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/microservice-trace-zipkin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

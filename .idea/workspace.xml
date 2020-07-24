@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bf8ffd4-a521-4921-b90a-d096a0bcbcf7" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/initializr/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-discovery-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-provider-user/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-discovery-business/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-provider-user-bak/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-customizing/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing-properties/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-business-ribbon-customizing-properties/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-ribbon-customizing-properties/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-ribbon-without-eureka/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-provider-user-with-auth/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign-manual/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign-logging/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign-multiple-params/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-factory/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-stream/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-stream-bak/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-hystrix-turbine/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-hystrix-dashboard/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix-turbine-mq/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-hystrix-turbine-mq/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-gateway-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-file-upload/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-gateway-zuul-file-upload/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-gateway-zuul-filter/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-gateway-zuul-fallback/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-sidecar/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-sidecar-client-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-server-health/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-client-refresh/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-config-server-authenticating/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-provider-user-trace/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-simple-consumer-business-trace/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-trace-zipkin-server/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-provider-user-trace-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-simple-consumer-movie-trace-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-trace-zipkin-server-stream/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="springcloud-learn" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/ljm/springcloud/EurekaApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="749">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProviderUserApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>eureka</find>
+      <find>utf</find>
+      <find>eurek</find>
+      <find>microservice-provider-user</find>
+      <find>configure(</find>
+      <find>userDetailsService</find>
+      <find>microservice-consumer-business-feign-manual</find>
+      <find>ConsumerBusinessApplication</find>
+      <find>groupId</find>
+      <find>Autowired</find>
+      <find>microservice-hystrix-turbine</find>
+      <find>microservice-consumer-business-feign-hystrix-fallback-stream</find>
+      <find>import org.springframework.cloud.netflix.turbine.EnableTurbine;</find>
+      <find>microservice-sidecar-node-service</find>
+      <find>fallback</find>
+      <find>microservice-config-server</find>
+      <find>645121107</find>
+      <find>/bus</find>
+      <find>build</find>
+      <find>TIMESTAMP</find>
+      <find>BUILD_FOLDER:-build</find>
+      <find>microservice-simple-consumer-movie-trace-zipkin</find>
+      <find>spring-cloud-sleuth-zipkin</find>
+      <find>spring-cloud-starter-sleuth</find>
+      <find>instanceID</find>
+      <find>spring.cloud.client.ipAddress</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../mongodb-file-server" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/src/main/java/com/ljm/springcloud/ConfigClientApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/src/main/java/com/ljm/springcloud/controller/ConfigClientController.java" />
+        <option value="$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-health/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus/src/main/java/com/ljm/springcloud/ConfigServerApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-config-server-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-authenticating/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-config-server-authenticating/src/main/java/com/ljm/springcloud/ConfigServiceApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-trace/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-trace/src/main/java/com/ljm/springcloud/ProviderUserApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-bak/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-trace/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace/src/main/java/com/ljm/springcloud/controller/BusinessController.java" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/logback-spring.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/java/com/ljm/springcloud/ProviderUserApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/build/microservice-provider-user.json" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server/src/main/java/com/ljm/springcloud/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-trace-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-trace-zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-trace-zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-movie-trace-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-user-trace-zipkin/src/main/java/com/ljm/springcloud/ProviderUserApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server-stream/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server-stream/src/main/java/com/ljm/springcloud/ZipkinServerApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/java/com/ljm/springcloud/controller/BusinessController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-provider-user-bak" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-simple-provider-user-trace-elk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-simple-provider-user-trace-elk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="EurekaClientAutoConfiguration&#9;FILE&#9;jar://C:/Users/Administrator/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.2.4.RELEASE/spring-cloud-netflix-eureka-client-1.2.4.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/spring-cloud-starter-netflix-turbine-1.4.7.RELEASE.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.36015624" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ljm.springcloud" />
+      <recent name="com.ljm.springcloud.learn.controller" />
+      <recent name="com.ljm.springcloud.learn.entity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myCode\springcloud-learn\microservice-simple-provider-user-trace-zipkin-stream\src\main\java\com\ljm\springcloud" />
+      <recent name="E:\myCode\springcloud-learn\microservice-simple-consumer-business-trace-zipkin\src\main\java\com\ljm\springcloud" />
+      <recent name="E:\myCode\springcloud-learn\microservice-simple-provider-user-trace-elk\src\main\java\com\ljm\springcloud" />
+      <recent name="E:\myCode\springcloud-learn\microservice-simple-provider-user-trace-elk\build" />
+      <recent name="E:\myCode\springcloud-learn\microservice-simple-consumer-business-trace\src\main\java\com\ljm\springcloud" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ProviderUserApplication (1)">
+    <configuration name="ProviderUserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljm.springcloud.ProviderUserApplication" />
+      <module name="microservice-simple-provider-user-trace-zipkin-stream" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ConfigClientApplication" />
+    </configuration>
+    <configuration name="ConfigServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-config-server-refresh-cloud-bus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ConfigServerApplication" />
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-config-server-health" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jm.springcloud.ConfigServerApplication" />
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ConfigServiceApplication" />
+    </configuration>
+    <configuration name="ConsumerBusinessApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-business-feign-customizing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.learn.ConsumerBusinessApplication" />
+    </configuration>
+    <configuration name="ConsumerBusinessApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-simple-consumer-business-trace-zipkin-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ConsumerBusinessApplication" />
+    </configuration>
+    <configuration name="ConsumerBusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movie-ribbon-customizing" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ConsumerBusinessApplication" />
+    </configuration>
+    <configuration name="ConsumerBusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-consumer-business-feign" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljm.springcloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ConsumerBusinessApplication" />
+    </configuration>
+    <configuration name="ConsumerMovieApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-consumer-movie-feign-manual" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itmuch.cloud.study.ConsumerMovieApplication" />
+    </configuration>
+    <configuration name="ConsumerMovieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-discovery-business" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.ConsumerMovieApplication" />
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-discovery-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.EurekaApplication" />
+    </configuration>
+    <configuration name="FileUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-file-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.FileUploadApplication" />
+    </configuration>
+    <configuration name="HystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.HystrixDashboardApplication" />
+    </configuration>
+    <configuration name="InitializrApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="initializr" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.initializr.InitializrApplication" />
+    </configuration>
+    <configuration name="ProviderUserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-provider-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ProviderUserApplication" />
+    </configuration>
+    <configuration name="ProviderUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-provider-user-bak" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ProviderUserApplication" />
+    </configuration>
+    <configuration name="SidecarApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-sidecar" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.SidecarApplication" />
+    </configuration>
+    <configuration name="SidecarClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-sidecar-client-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.SidecarClientApplication" />
+    </configuration>
+    <configuration name="TurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-hystrix-turbine-mq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.TurbineApplication" />
+    </configuration>
+    <configuration name="ZipkinServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-trace-zipkin-server-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ZipkinServerApplication" />
+    </configuration>
+    <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-trace-zipkin-server-stream-elasticsearch" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljm.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ZipkinServerApplication" />
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservice-gateway-zuul-file-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ZuulApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.InitializrApplication" />
+      <item itemvalue="Spring Boot.ConsumerMovieApplication" />
+      <item itemvalue="Spring Boot.ConsumerBusinessApplication" />
+      <item itemvalue="Spring Boot.ConsumerMovieApplication (1)" />
+      <item itemvalue="Spring Boot.ConsumerBusinessApplication (1)" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.TurbineApplication" />
+      <item itemvalue="Spring Boot.HystrixDashboardApplication" />
+      <item itemvalue="Spring Boot.FileUploadApplication" />
+      <item itemvalue="Spring Boot.SidecarClientApplication" />
+      <item itemvalue="Spring Boot.SidecarApplication" />
+      <item itemvalue="Spring Boot.ProviderUserApplication" />
+      <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication (1)" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigClientApplication" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication (1)" />
+      <item itemvalue="Application.ProviderUserApplication" />
+      <item itemvalue="Spring Boot.ConsumerBusinessApplication (2)" />
+      <item itemvalue="Spring Boot.ZipkinServerApplication" />
+      <item itemvalue="Spring Boot.ProviderUserApplication (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ProviderUserApplication (1)" />
+        <item itemvalue="Spring Boot.ConsumerBusinessApplication (2)" />
+        <item itemvalue="Application.ProviderUserApplication" />
+        <item itemvalue="Spring Boot.ZipkinServerApplication" />
+        <item itemvalue="Spring Boot.ZipkinServerApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bf8ffd4-a521-4921-b90a-d096a0bcbcf7" name="Default" comment="" />
+      <created>1594004292883</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594004292883</updated>
+      <workItem from="1594004296692" duration="24131000" />
+      <workItem from="1594104464306" duration="7439000" />
+      <workItem from="1594111959441" duration="26404000" />
+      <workItem from="1594259430056" duration="16719000" />
+      <workItem from="1594289229475" duration="2511000" />
+      <workItem from="1594344544470" duration="13443000" />
+      <workItem from="1594369848844" duration="6064000" />
+      <workItem from="1594604143130" duration="1643000" />
+      <workItem from="1594611306810" duration="29019000" />
+      <workItem from="1594775114326" duration="10444000" />
+      <workItem from="1594863641552" duration="9439000" />
+      <workItem from="1594949193851" duration="1453000" />
+      <workItem from="1594952572659" duration="10410000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="159119000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.46055436" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info x="641" y="362" width="638" height="315" id="Structure" order="1" sideWeight="0.5007924" side_tool="true" type="WINDOWED" weight="0.3400853" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32455215" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32982087" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32982087" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3361433" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32982087" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.46891466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.18710022" />
+      <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
+      <window_info id="Web" order="2" sideWeight="0.5007924" side_tool="true" weight="0.3400853" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" sideWeight="0.5007924" side_tool="true" weight="0.3400853" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32982087" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-consumer-business-feign-manual/src/main/java/com/ljm/springcloud/learn/controller/BusinessController.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-consumer-business-feign-multiple-params/src/main/java/com/ljm/springcloud/learn/controller/BusinessController.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/java/com/ljm/springcloud/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/..buildmicroservice-provider-user.json" />
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/build/build/microservice-provider-user.json" />
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/build/microservice-provider-user.json" />
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/logback-spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-680">
+          <caret line="6" column="58" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/build/microservice-provider-user.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/build/build/microservice-provider-user.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="515" column="144" selection-start-line="515" selection-start-column="144" selection-end-line="515" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/learn/Spring_Cloud/spring-cloud-docker-microservice-book-code-master/trace/microservice-trace-zipkin-server/src/main/java/com/itmuch/cloud/study/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/java/com/ljm/springcloud/entury/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/java/com/ljm/springcloud/controller/BusinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-trace-zipkin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server/src/main/java/com/ljm/springcloud/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="17" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-trace-zipkin/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user-trace-zipkin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/learn/Spring_Cloud/spring-cloud-docker-microservice-book-code-master/trace/microservice-trace-zipkin-server-stream/src/main/java/com/itmuch/cloud/study/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="8" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream/src/main/java/com/ljm/springcloud/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/java/com/ljm/springcloud/controller/BusinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="74" column="69" selection-start-line="74" selection-start-column="69" selection-end-line="74" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/learn/Spring_Cloud/spring-cloud-docker-microservice-book-code-master/trace/microservice-trace-zipkin-server-stream-elasticsearch/src/main/java/com/itmuch/cloud/study/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/src/main/java/com/ljm/springcloud/ZipkinServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.2.4.RELEASE/spring-cloud-netflix-eureka-client-1.2.4.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="99" column="50" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#9852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar!/org/springframework/cloud/commons/util/IdUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/ljm/springcloud/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>initializr:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36015624" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36015624" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Python 3.7 interpreter library</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>microservice-hystrix-turbine</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36015624" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.36015624" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,31 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: microservice-provider-user
+  jpa:
+    database: MYSQL
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:                           # 指定数据源
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.21.16.8:3306/zhenai_emotion_offline?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: u_96333
+    password: u_96333
+logging:                                # 配置日志级别，让hibernate打印出执行的SQL
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+    healthcheck:
+      enable: true
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.cloud.client.ipAddress}:${server.port}

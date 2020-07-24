@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ljm.springcloud</groupId>
+    <artifactId>springcloud-learn</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- 引入spring boot的依赖 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.3.RELEASE</version>
+    </parent>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <modules>
+        <module>microservice-provider-user</module>
+        <module>initializr</module>
+        <module>microservice-discovery-eureka</module>
+        <module>microservice-provider-user</module>
+        <module>microservice-provider-user-bak</module>
+        <module>microservice-consumer-business-ribbon</module>
+        <module>microservice-discovery-business</module>
+        <module>microservice-consumer-movie-ribbon-customizing</module>
+        <module>microservice-consumer-business-ribbon-customizing-properties</module>
+        <module>microservice-consumer-business-ribbon-without-eureka</module>
+        <module>microservice-consumer-business-feign-customizing</module>
+        <module>microservice-provider-user-with-auth</module>
+        <module>microservice-consumer-business-feign</module>
+        <module>microservice-consumer-business-feign-manual</module>
+        <module>microservice-consumer-movie-feign-manual</module>
+        <module>microservice-consumer-business-feign-logging</module>
+        <module>microservice-consumer-business-feign-multiple-params</module>
+        <module>microservice-consumer-business-ribbon-hystrix</module>
+        <module>microservice-consumer-business-feign-hystrix-fallback-factory</module>
+        <module>microservice-consumer-business-feign-hystrix-fallback</module>
+        <module>microservice-consumer-business-feign-hystrix-fallback-stream</module>
+        <module>microservice-consumer-business-feign-hystrix-fallback-turbine</module>
+        <module>microservice-hystrix-turbine</module>
+        <module>microservice-hystrix-turbine-mq</module>
+        <module>microservice-hystrix-dashboard</module>
+        <module>microservice-consumer-business-ribbon-hystrix-turbine-mq</module>
+        <module>microservice-gateway-zuul</module>
+        <module>microservice-file-upload</module>
+        <module>microservice-gateway-zuul-file-upload</module>
+        <module>microservice-gateway-zuul-file-upload</module>
+        <module>microservice-gateway-zuul-filter</module>
+        <module>microservice-gateway-zuul-fallback</module>
+        <module>microservice-sidecar</module>
+        <module>microservice-sidecar-client-ribbon</module>
+        <module>microservice-gateway-zuul-aggregation</module>
+        <module>microservice-config-server</module>
+        <module>microservice-config-client</module>
+        <module>microservice-config-server-health</module>
+        <module>microservice-config-client-refresh</module>
+        <module>microservice-config-client-refresh-cloud-bus</module>
+        <module>microservice-config-server-refresh-cloud-bus</module>
+        <module>microservice-config-server-authenticating</module>
+        <module>microservice-provider-user-trace</module>
+        <module>microservice-simple-consumer-business-trace</module>
+        <module>microservice-simple-provider-user-trace-elk</module>
+        <module>microservice-trace-zipkin-server</module>
+        <module>microservice-provider-user-trace-zipkin</module>
+        <module>microservice-simple-consumer-business-trace-zipkin</module>
+        <module>microservice-trace-zipkin-server-stream</module>
+        <module>microservice-simple-provider-user-trace-zipkin-stream</module>
+        <module>microservice-simple-consumer-business-trace-zipkin-stream</module>
+        <module>microservice-trace-zipkin-server-stream-elasticsearch</module>
+    </modules>
+
+    <!-- 引入spring cloud的依赖 -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Camden.SR4</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- 添加spring-boot的maven插件 -->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

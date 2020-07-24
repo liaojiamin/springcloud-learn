@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="initializr" />
+        <module name="microservice-config-client" />
+        <module name="microservice-config-client-refresh" />
+        <module name="microservice-config-client-refresh-cloud-bus" />
+        <module name="microservice-config-server" />
+        <module name="microservice-config-server-authenticating" />
+        <module name="microservice-config-server-health" />
+        <module name="microservice-config-server-refresh-cloud-bus" />
+        <module name="microservice-consumer-business-feign" />
+        <module name="microservice-consumer-business-feign-customizing" />
+        <module name="microservice-consumer-business-feign-hystrix-fallback" />
+        <module name="microservice-consumer-business-feign-hystrix-fallback-factory" />
+        <module name="microservice-consumer-business-feign-hystrix-fallback-stream" />
+        <module name="microservice-consumer-business-feign-hystrix-fallback-turbine" />
+        <module name="microservice-consumer-business-feign-logging" />
+        <module name="microservice-consumer-business-feign-manual" />
+        <module name="microservice-consumer-business-feign-multiple-params" />
+        <module name="microservice-consumer-business-ribbon" />
+        <module name="microservice-consumer-business-ribbon-customizing-properties" />
+        <module name="microservice-consumer-business-ribbon-hystrix" />
+        <module name="microservice-consumer-business-ribbon-hystrix-turbine-mq" />
+        <module name="microservice-consumer-business-ribbon-without-eureka" />
+        <module name="microservice-consumer-movie-feign-manual" />
+        <module name="microservice-consumer-movie-ribbon-customizing" />
+        <module name="microservice-discovery-business" />
+        <module name="microservice-discovery-eureka" />
+        <module name="microservice-file-upload" />
+        <module name="microservice-gateway-zuul" />
+        <module name="microservice-gateway-zuul-aggregation" />
+        <module name="microservice-gateway-zuul-fallback" />
+        <module name="microservice-gateway-zuul-file-upload" />
+        <module name="microservice-gateway-zuul-filter" />
+        <module name="microservice-hystrix-dashboard" />
+        <module name="microservice-hystrix-turbine" />
+        <module name="microservice-hystrix-turbine-mq" />
+        <module name="microservice-provider-user" />
+        <module name="microservice-provider-user-bak" />
+        <module name="microservice-provider-user-trace" />
+        <module name="microservice-provider-user-trace-zipkin" />
+        <module name="microservice-provider-user-with-auth" />
+        <module name="microservice-sidecar" />
+        <module name="microservice-sidecar-client-ribbon" />
+        <module name="microservice-simple-consumer-business-trace" />
+        <module name="microservice-simple-consumer-business-trace-zipkin" />
+        <module name="microservice-simple-consumer-business-trace-zipkin-stream" />
+        <module name="microservice-simple-provider-user-trace-elk" />
+        <module name="microservice-simple-provider-user-trace-zipkin-stream" />
+        <module name="microservice-trace-zipkin-server" />
+        <module name="microservice-trace-zipkin-server-stream" />
+        <module name="microservice-trace-zipkin-server-stream-elasticsearch" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-business-ribbon-customizing-properties" target="1.8" />
+      <module name="microservice-consumer-business" target="1.8" />
+      <module name="microservice-consumer-business-feign-hystrix-fallback-stream-bak" target="1.8" />
+      <module name="microservice-consumer-movie" target="1.8" />
+      <module name="microservice-consumer-movie-ribbon-customizing-properties" target="1.8" />
+      <module name="microservice-simple-consumer-movie-trace-zipkin" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

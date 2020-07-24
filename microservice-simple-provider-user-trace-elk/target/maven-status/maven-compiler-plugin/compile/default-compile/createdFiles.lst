@@ -1,0 +1,4 @@
+com\ljm\springcloud\controller\UserController.class
+com\ljm\springcloud\entity\User.class
+com\ljm\springcloud\ProviderUserApplication.class
+com\ljm\springcloud\repository\UserRepository.class
