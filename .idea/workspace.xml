@@ -1,7 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bf8ffd4-a521-4921-b90a-d096a0bcbcf7" name="Default" comment="" />
+    <list default="true" id="4bf8ffd4-a521-4921-b90a-d096a0bcbcf7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/target/classes/com/ljm/springcloud/ConfigClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/target/classes/com/ljm/springcloud/controller/ConfigClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-refresh/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-refresh/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-refresh/target/classes/com/ljm/springcloud/ConfigServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client-refresh/target/classes/com/ljm/springcloud/controller/ConfigClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client/target/classes/com/ljm/springcloud/ConfigClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-client/target/classes/com/ljm/springcloud/controller/ConfigClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-server-authenticating/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-server-authenticating/target/classes/com/ljm/springcloud/ConfigServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-server-health/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-server-health/target/classes/com/jm/springcloud/ConfigServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus/target/classes/com/ljm/springcloud/ConfigServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-config-server/target/classes/com/ljm/springcloud/ConfigServiceApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/com/ljm/springcloud/ConsumerMovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/com/ljm/springcloud/config/FeignConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/com/ljm/springcloud/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/com/ljm/springcloud/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/com/ljm/springcloud/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/com/ljm/springcloud/learn/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-customizing/target/classes/com/ljm/springcloud/learn/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-factory/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-factory/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-factory/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-factory/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-factory/target/classes/com/ljm/springcloud/learn/feign/FeignClientFallbackFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-factory/target/classes/com/ljm/springcloud/learn/feign/FeignClientFallbackFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-factory/target/classes/com/ljm/springcloud/learn/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-stream/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-stream/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-stream/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-stream/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-stream/target/classes/com/ljm/springcloud/learn/feign/FeignClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-stream/target/classes/com/ljm/springcloud/learn/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-turbine/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-turbine/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-turbine/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-turbine/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-turbine/target/classes/com/ljm/springcloud/learn/feign/FeignClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback-turbine/target/classes/com/ljm/springcloud/learn/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback/target/classes/com/ljm/springcloud/learn/feign/FeignClientFallback.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-hystrix-fallback/target/classes/com/ljm/springcloud/learn/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-logging/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-logging/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-logging/target/classes/com/ljm/springcloud/learn/config/FeignLogConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-logging/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-logging/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-logging/target/classes/com/ljm/springcloud/learn/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-manual/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-manual/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-manual/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-manual/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-manual/target/classes/com/ljm/springcloud/learn/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-multiple-params/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-multiple-params/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-multiple-params/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-multiple-params/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign-multiple-params/target/classes/com/ljm/springcloud/learn/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign/target/classes/com/ljm/springcloud/ConsumerMovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign/target/classes/com/ljm/springcloud/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign/target/classes/com/ljm/springcloud/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-feign/target/classes/com/ljm/springcloud/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-customizing-properties/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-customizing-properties/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-customizing-properties/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-customizing-properties/target/classes/com/ljm/springcloud/learn/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-without-eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-without-eureka/target/classes/com/ljm/springcloud/ConsumerMovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-without-eureka/target/classes/com/ljm/springcloud/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-without-eureka/target/classes/com/ljm/springcloud/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon/target/classes/com/ljm/springcloud/learn/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/target/classes/com/itmuch/cloud/study/ConsumerMovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/target/classes/com/itmuch/cloud/study/user/controller/MovieController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/target/classes/com/itmuch/cloud/study/user/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-feign-manual/target/classes/com/itmuch/cloud/study/user/feign/UserFeignClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/target/classes/com/ljm/springcloud/config/RibbonConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/target/classes/com/ljm/springcloud/learn/config/TestConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/target/classes/com/ljm/springcloud/learn/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customizing/target/classes/com/ljm/springcloud/learn/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-business/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-business/target/classes/springcloud/ConsumerMovieApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-business/target/classes/springcloud/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-business/target/classes/springcloud/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/target/classes/com/ljm/springcloud/EurekaApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-file-upload/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-file-upload/target/classes/com/ljm/springcloud/FileUploadApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-file-upload/target/classes/com/ljm/springcloud/controller/FileUploadController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-file-upload/target/classes/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/classes/com/ljm/springcloud/AggregationController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/classes/com/ljm/springcloud/AggregationController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/classes/com/ljm/springcloud/AggregationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/classes/com/ljm/springcloud/AggregationService$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/classes/com/ljm/springcloud/AggregationService$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/classes/com/ljm/springcloud/AggregationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/classes/com/ljm/springcloud/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-aggregation/target/classes/com/ljm/springcloud/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/target/classes/com/ljm/springcloud/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/target/classes/com/ljm/springcloud/fallback/UserFallbackProvider$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-fallback/target/classes/com/ljm/springcloud/fallback/UserFallbackProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-file-upload/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-file-upload/target/classes/com/ljm/springcloud/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-filter/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-filter/target/classes/com/ljm/springcloud/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul-filter/target/classes/com/ljm/springcloud/filter/PreRequestLogFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul/target/classes/com/ljm/springcloud/ZuulApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-hystrix-dashboard/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-hystrix-dashboard/target/classes/com/ljm/springcloud/HystrixDashboardApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-hystrix-turbine-mq/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-hystrix-turbine-mq/target/classes/com/ljm/springcloud/TurbineApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-hystrix-turbine/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-hystrix-turbine/target/classes/com/ljm/springcloud/TurbineApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-bak/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-bak/target/classes/com/ljm/springcloud/ProviderUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-bak/target/classes/com/ljm/springcloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-bak/target/classes/com/ljm/springcloud/learn/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-bak/target/classes/com/ljm/springcloud/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace-zipkin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace-zipkin/target/classes/com/ljm/springcloud/ProviderUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace-zipkin/target/classes/com/ljm/springcloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace-zipkin/target/classes/com/ljm/springcloud/learn/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace-zipkin/target/classes/com/ljm/springcloud/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace/target/classes/com/ljm/springcloud/ProviderUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace/target/classes/com/ljm/springcloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace/target/classes/com/ljm/springcloud/learn/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-trace/target/classes/com/ljm/springcloud/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/target/classes/com/ljm/springcloud/ProviderUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/target/classes/com/ljm/springcloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/target/classes/com/ljm/springcloud/learn/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/target/classes/com/ljm/springcloud/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/target/classes/com/ljm/springcloud/security/WebSecurityConfig$CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/target/classes/com/ljm/springcloud/security/WebSecurityConfig$SecurityUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user-with-auth/target/classes/com/ljm/springcloud/security/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/ljm/springcloud/ProviderUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/ljm/springcloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/ljm/springcloud/learn/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/target/classes/com/ljm/springcloud/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-sidecar-client-ribbon/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-sidecar-client-ribbon/target/classes/com/ljm/springcloud/SidecarClientApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-sidecar-client-ribbon/target/classes/com/ljm/springcloud/controller/SidecarClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-sidecar/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-sidecar/target/classes/com/ljm/springcloud/SidecarApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-sidecar/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-sidecar/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/target/classes/com/ljm/springcloud/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/target/classes/com/ljm/springcloud/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/target/classes/com/ljm/springcloud/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/target/classes/com/ljm/springcloud/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace/target/classes/com/ljm/springcloud/ConsumerBusinessApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace/target/classes/com/ljm/springcloud/controller/BusinessController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-consumer-business-trace/target/classes/com/ljm/springcloud/entury/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/classes/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/classes/com/ljm/springcloud/ProviderUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/classes/com/ljm/springcloud/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/classes/com/ljm/springcloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/classes/com/ljm/springcloud/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/microservice-simple-provider-user-trace-elk-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/microservice-simple-provider-user-trace-elk-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/target/classes/com/ljm/springcloud/ProviderUserApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/target/classes/com/ljm/springcloud/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/target/classes/com/ljm/springcloud/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/target/classes/com/ljm/springcloud/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/target/classes/com/ljm/springcloud/ZipkinServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-trace-zipkin-server-stream/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-trace-zipkin-server-stream/target/classes/com/ljm/springcloud/ZipkinServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-trace-zipkin-server/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-trace-zipkin-server/target/classes/com/ljm/springcloud/ZipkinServerApplication.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/initializr/target/" />
@@ -90,7 +301,7 @@
         <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/ljm/springcloud/EurekaApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -98,8 +309,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="749">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="209">
+              <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -108,7 +319,7 @@
         <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="325">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -151,6 +362,9 @@
       <find>instanceID</find>
       <find>spring.cloud.client.ipAddress</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="projectSyncType">
@@ -224,21 +438,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-provider-user-bak" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-simple-provider-user-trace-elk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-simple-provider-user-trace-elk" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -256,9 +456,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,53 +463,13 @@
               <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -587,19 +744,19 @@
       <workItem from="1594863641552" duration="9439000" />
       <workItem from="1594949193851" duration="1453000" />
       <workItem from="1594952572659" duration="10410000" />
+      <workItem from="1595816825621" duration="244000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159119000" />
+    <option name="totallyTimeSpent" value="159363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.46055436" />
+      <window_info active="true" anchor="right" id="Maven Projects" order="3" visible="true" weight="0.46055436" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -609,16 +766,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32455215" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32982087" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32982087" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3361433" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33544305" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32982087" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.46891466" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.18710022" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.18923241" />
       <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
       <window_info id="Web" order="2" sideWeight="0.5007924" side_tool="true" weight="0.3400853" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -626,6 +782,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32982087" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32982087" />
@@ -932,12 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -959,9 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="99" column="50" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#9852#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,21 +1123,21 @@
     <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/ljm/springcloud/EurekaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="209">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>

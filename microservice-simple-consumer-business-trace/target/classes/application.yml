@@ -1,8 +1,0 @@
-server:
-  port: 8010
-spring:
-  application:
-    name: microservice-consumer-business
-logging:
-  level:
-    org.springframework.cloud.sleuth: DEBUG
