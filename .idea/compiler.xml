@@ -46,6 +46,7 @@
         <module name="microservice-provider-user-trace" />
         <module name="microservice-provider-user-trace-zipkin" />
         <module name="microservice-provider-user-with-auth" />
+        <module name="microservice-provider-xcyf168" />
         <module name="microservice-sidecar" />
         <module name="microservice-sidecar-client-ribbon" />
         <module name="microservice-simple-consumer-business-trace" />
@@ -56,6 +57,7 @@
         <module name="microservice-trace-zipkin-server" />
         <module name="microservice-trace-zipkin-server-stream" />
         <module name="microservice-trace-zipkin-server-stream-elasticsearch" />
+        <module name="mybatisplus-spring-boot" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

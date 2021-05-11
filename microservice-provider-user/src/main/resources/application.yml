@@ -9,12 +9,12 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: none
-  datasource:                           # 指定数据源
+  datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://10.21.16.8:3306/zhenai_emotion_offline?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: u_96333
     password: u_96333
-logging:                                # 配置日志级别，让hibernate打印出执行的SQL
+logging:
   level:
     root: INFO
     org.hibernate: INFO
@@ -23,7 +23,7 @@ logging:                                # 配置日志级别，让hibernate打�
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://discovery:8761/eureka/
     healthcheck:
       enable: true
   instance:

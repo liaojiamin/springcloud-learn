@@ -15,3 +15,25 @@ zipkin:
       index: zipkin
       index-shards: 5
       index-replicas: 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

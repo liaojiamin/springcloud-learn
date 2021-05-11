@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bf8ffd4-a521-4921-b90a-d096a0bcbcf7" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/microservice-provider-xcyf168/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-hystrix-turbine/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-hystrix-turbine/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,6 +73,8 @@
     <ignored path="$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/target/" />
     <ignored path="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/target/" />
     <ignored path="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/target/" />
+    <ignored path="$PROJECT_DIR$/microservice-provider-xcyf168/target/" />
+    <ignored path="$PROJECT_DIR$/mybatisplus-spring-boot/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,20 +101,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EurekaApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/ljm/springcloud/EurekaApplication.java">
+      <file leaf-file-name="XcyfUser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/entity/XcyfUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="372">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#955#956#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1043#1044#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#806#807#0" expanded="true" />
+                <element signature="e#837#838#0" expanded="true" />
+                <element signature="e#885#886#0" expanded="true" />
+                <element signature="e#925#926#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#985#986#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1128#1129#0" expanded="true" />
+                <element signature="e#1177#1178#0" expanded="true" />
+                <element signature="e#1217#1218#0" expanded="true" />
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1280#1281#0" expanded="true" />
+                <element signature="e#1325#1326#0" expanded="true" />
+                <element signature="e#1361#1362#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1423#1424#0" expanded="true" />
+                <element signature="e#1467#1468#0" expanded="true" />
+                <element signature="e#1503#1504#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
+                <element signature="e#1613#1614#0" expanded="true" />
+                <element signature="e#1653#1654#0" expanded="true" />
+                <element signature="e#1687#1688#0" expanded="true" />
+                <element signature="e#1716#1717#0" expanded="true" />
+                <element signature="e#1761#1762#0" expanded="true" />
+                <element signature="e#1797#1798#0" expanded="true" />
+                <element signature="e#1829#1830#0" expanded="true" />
+                <element signature="e#1857#1858#0" expanded="true" />
+                <element signature="e#1899#1900#0" expanded="true" />
+                <element signature="e#1933#1934#0" expanded="true" />
+                <element signature="e#1967#1968#0" expanded="true" />
+                <element signature="e#1997#1998#0" expanded="true" />
+                <element signature="e#2043#2044#0" expanded="true" />
+                <element signature="e#2081#2082#0" expanded="true" />
+                <element signature="e#2116#2117#0" expanded="true" />
+                <element signature="e#2149#2150#0" expanded="true" />
+                <element signature="e#2199#2200#0" expanded="true" />
+                <element signature="e#2243#2244#0" expanded="true" />
+                <element signature="e#2284#2285#0" expanded="true" />
+                <element signature="e#2323#2324#0" expanded="true" />
+                <element signature="e#2385#2386#0" expanded="true" />
+                <element signature="e#2441#2442#0" expanded="true" />
+                <element signature="e#2476#2477#0" expanded="true" />
+                <element signature="e#2509#2510#0" expanded="true" />
+                <element signature="e#2559#2560#0" expanded="true" />
+                <element signature="e#2603#2604#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="294">
+              <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3792#3793#0" expanded="true" />
+                <element signature="e#3848#3849#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DB_SQL" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/DB_SQL">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -110,26 +195,71 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="548">
-              <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+            <state relative-caret-position="244">
+              <caret line="17" column="13" selection-start-line="11" selection-start-column="2" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Page.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.0/mybatis-plus-extension-3.4.0.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/service/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="86">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.0/mybatis-plus-extension-3.4.0.jar!/com/baomidou/mybatisplus/extension/activerecord/Model.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Xcyf168Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/Xcyf168Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/pom.xml">
+        <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProviderUserApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="319">
+              <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -145,11 +275,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>eureka</find>
-      <find>utf</find>
-      <find>eurek</find>
-      <find>microservice-provider-user</find>
-      <find>configure(</find>
       <find>userDetailsService</find>
       <find>microservice-consumer-business-feign-manual</find>
       <find>ConsumerBusinessApplication</find>
@@ -171,6 +296,15 @@
       <find>spring-cloud-starter-sleuth</find>
       <find>instanceID</find>
       <find>spring.cloud.client.ipAddress</find>
+      <find>mybatis-plus-boot-starter.version</find>
+      <find>baseMapper</find>
+      <find>mybatis-spring-boot-start</find>
+      <find>HikariCP.version</find>
+      <find>tenant_id</find>
+      <find>MybatisPlusInterceptor</find>
+      <find>reservation</find>
+      <find>paginationInterceptor</find>
+      <find>TenantLineInnerInterceptor</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,25 +320,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/src/main/java/com/ljm/springcloud/ConfigClientApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-config-client-refresh-cloud-bus/src/main/java/com/ljm/springcloud/controller/ConfigClientController.java" />
-        <option value="$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-config-server-health/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-config-server-refresh-cloud-bus/src/main/java/com/ljm/springcloud/ConfigServerApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-config-server-authenticating/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-config-server-authenticating/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-config-server-authenticating/src/main/java/com/ljm/springcloud/ConfigServiceApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-trace/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-trace/src/main/java/com/ljm/springcloud/ProviderUserApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-bak/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user-trace/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace/src/main/java/com/ljm/springcloud/controller/BusinessController.java" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/logback-spring.xml" />
@@ -230,13 +345,32 @@
         <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/java/com/ljm/springcloud/controller/BusinessController.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/pom.xml" />
-        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java" />
-        <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservice-discovery-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-consumer-business-ribbon-hystrix/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-gateway-zuul/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-hystrix-turbine/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/controller/XcyfController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/config/MetaObjectHandlerConfig.java" />
+        <option value="$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/mapper/SuperMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/mapper/SuperMapper.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/mapper/XcyfUserMapper.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/config/MybatisPlusConfig.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/Xcyf168Application.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/DB_SQL" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/entity/XcyfUser.java" />
+        <option value="$PROJECT_DIR$/microservice-provider-xcyf168/pom.xml" />
       </list>
     </option>
   </component>
@@ -251,11 +385,38 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-discovery-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="microservice-gateway-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="microservice-discovery-eureka" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="microservice-gateway-zuul" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-hystrix-dashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-hystrix-dashboard" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-hystrix-turbine" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-hystrix-turbine" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-provider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="microservice-provider-user" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -271,12 +432,14 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -287,12 +450,137 @@
             <path>
               <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="microservice-discovery-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-user" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-xcyf168" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-xcyf168" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-xcyf168" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-xcyf168" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-xcyf168" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-xcyf168" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-xcyf168" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-xcyf168" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learn" type="462c0819:PsiDirectoryNode" />
+              <item name="microservice-provider-xcyf168" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -317,16 +605,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xcyf.springcloud.controller" />
+      <recent name="com.xcyf.springcloud.mapper" />
+      <recent name="com.baomidou.springboot.mapper" />
       <recent name="com.ljm.springcloud" />
       <recent name="com.ljm.springcloud.learn.controller" />
-      <recent name="com.ljm.springcloud.learn.entity" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\myCode\springcloud-learn\microservice-provider-xcyf168\src\main\java\com\xcyf\springcloud\service" />
+      <recent name="E:\myCode\springcloud-learn\microservice-provider-xcyf168\src\main\java\com\xcyf\springcloud\config" />
+      <recent name="E:\myCode\springcloud-learn\microservice-provider-xcyf168\src\main\resources" />
       <recent name="E:\myCode\springcloud-learn\microservice-simple-provider-user-trace-zipkin-stream\src\main\java\com\ljm\springcloud" />
       <recent name="E:\myCode\springcloud-learn\microservice-simple-consumer-business-trace-zipkin\src\main\java\com\ljm\springcloud" />
-      <recent name="E:\myCode\springcloud-learn\microservice-simple-provider-user-trace-elk\src\main\java\com\ljm\springcloud" />
-      <recent name="E:\myCode\springcloud-learn\microservice-simple-provider-user-trace-elk\build" />
-      <recent name="E:\myCode\springcloud-learn\microservice-simple-consumer-business-trace\src\main\java\com\ljm\springcloud" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,7 +631,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderUserApplication (1)">
+  <component name="RunManager" selected="Spring Boot.Xcyf168Application">
     <configuration name="ProviderUserApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ljm.springcloud.ProviderUserApplication" />
       <module name="microservice-simple-provider-user-trace-zipkin-stream" />
@@ -466,15 +756,15 @@
       <module name="microservice-hystrix-turbine-mq" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.TurbineApplication" />
     </configuration>
-    <configuration name="ZipkinServerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="microservice-trace-zipkin-server-stream" />
+    <configuration name="Xcyf168Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="microservice-provider-xcyf168" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljm.springcloud.*" />
+          <option name="PATTERN" value="com.xcyf.springcloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ljm.springcloud.ZipkinServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xcyf.springcloud.Xcyf168Application" />
     </configuration>
     <configuration name="ZipkinServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="microservice-trace-zipkin-server-stream-elasticsearch" />
@@ -530,19 +820,19 @@
       <item itemvalue="Spring Boot.ConfigServerApplication (1)" />
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
       <item itemvalue="Spring Boot.ConfigClientApplication" />
-      <item itemvalue="Spring Boot.ZipkinServerApplication (1)" />
       <item itemvalue="Application.ProviderUserApplication" />
       <item itemvalue="Spring Boot.ConsumerBusinessApplication (2)" />
       <item itemvalue="Spring Boot.ZipkinServerApplication" />
       <item itemvalue="Spring Boot.ProviderUserApplication (1)" />
+      <item itemvalue="Spring Boot.Xcyf168Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.Xcyf168Application" />
         <item itemvalue="Spring Boot.ProviderUserApplication (1)" />
         <item itemvalue="Spring Boot.ConsumerBusinessApplication (2)" />
         <item itemvalue="Application.ProviderUserApplication" />
         <item itemvalue="Spring Boot.ZipkinServerApplication" />
-        <item itemvalue="Spring Boot.ZipkinServerApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -570,49 +860,59 @@
       <workItem from="1594949193851" duration="1453000" />
       <workItem from="1594952572659" duration="10410000" />
       <workItem from="1595816825621" duration="2405000" />
-      <workItem from="1596160159468" duration="1813000" />
+      <workItem from="1596160159468" duration="8417000" />
+      <workItem from="1596416609322" duration="1623000" />
+      <workItem from="1596612174899" duration="6945000" />
+      <workItem from="1596633626947" duration="1432000" />
+      <workItem from="1596680476390" duration="3132000" />
+      <workItem from="1607344597469" duration="1377000" />
+      <workItem from="1620634979400" duration="1202000" />
+      <workItem from="1620637905447" duration="13371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163337000" />
+    <option name="totallyTimeSpent" value="199023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32982087" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.46055436" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32982087" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.46891466" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.28784648" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.2595949" />
-      <window_info anchor="right" id="Bean Validation" order="3" weight="0.32995737" />
-      <window_info id="Web" order="2" sideWeight="0.5007924" side_tool="true" weight="0.3400853" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32995737" />
       <window_info x="641" y="362" width="638" height="315" id="Structure" order="1" sideWeight="0.5007924" side_tool="true" type="WINDOWED" weight="0.3400853" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5007924" side_tool="true" weight="0.3400853" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32455215" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32383966" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.16666667" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32982087" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3470464" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32982087" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.46891466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49920762" visible="true" weight="0.22014925" />
+      <window_info anchor="right" id="Bean Validation" order="8" weight="0.32995737" />
+      <window_info id="Web" order="6" sideWeight="0.5007924" side_tool="true" weight="0.3400853" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32982087" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" sideWeight="0.5007924" side_tool="true" weight="0.3400853" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.41033757" />
+      <window_info anchor="right" x="0" y="0" width="433" height="847" id="Documentation" order="12" sideWeight="0.5010941" side_tool="true" weight="0.2681624" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32982087" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="SciView" order="0" weight="0.32995737" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32982087" />
+      <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -636,8 +936,26 @@
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/controller/UserController.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/controller/UserController.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/controller/UserController.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -645,326 +963,452 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/java/com/ljm/springcloud/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="29" column="21" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/..buildmicroservice-provider-user.json" />
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/build/build/microservice-provider-user.json" />
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/target/build/microservice-provider-user.json" />
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/logback-spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="6" column="58" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/build/microservice-provider-user.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/build/build/microservice-provider-user.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="515" column="144" selection-start-line="515" selection-start-column="144" selection-end-line="515" selection-end-column="144" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/learn/Spring_Cloud/spring-cloud-docker-microservice-book-code-master/trace/microservice-trace-zipkin-server/src/main/java/com/itmuch/cloud/study/ZipkinServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/java/com/ljm/springcloud/entury/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/java/com/ljm/springcloud/controller/BusinessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user-trace-zipkin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server/src/main/java/com/ljm/springcloud/ZipkinServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="10" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="30" column="33" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user-trace-zipkin/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user-trace-zipkin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/learn/Spring_Cloud/spring-cloud-docker-microservice-book-code-master/trace/microservice-trace-zipkin-server-stream/src/main/java/com/itmuch/cloud/study/ZipkinServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-business/src/main/java/springcloud/ConsumerMovieApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="15" column="8" selection-end-line="20" selection-end-column="43" />
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-elk/pom.xml">
+    <entry file="file://$PROJECT_DIR$/microservice-discovery-business/src/main/java/springcloud/controller/BusinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="29" selection-end-column="21" />
+          <caret line="15" column="5" selection-start-line="13" selection-start-column="3" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/entity/User.java">
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/1.4.3.RELEASE/spring-boot-starter-parent-1.4.3.RELEASE.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.4.8/spring-data-commons-2.4.8.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream/src/main/java/com/ljm/springcloud/ZipkinServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/repository/UserRepository.java">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/learn/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        <state relative-caret-position="325">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/resources/application.yml">
+    <entry file="file://$MAVEN_REPOSITORY$/com/zhenai/zhenai-framework-starter-mybatis/4.3.9/zhenai-framework-starter-mybatis-4.3.9.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="32" column="10" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.3.6/spring-web-5.3.6.jar!/org/springframework/web/bind/annotation/Mapping.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/java/com/ljm/springcloud/controller/BusinessController.java">
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/config/MetaObjectHandlerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/config/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053">
+          <caret line="15" column="57" lean-forward="true" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0-RC3/mybatis-plus-extension-3.0-RC3.jar!/com/baomidou/mybatisplus/extension/incrementer/H2KeyGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/entity/enums/AgeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/mapper/SuperMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/learn/Spring_Cloud/spring-cloud-docker-microservice-book-code-master/trace/microservice-trace-zipkin-server-stream-elasticsearch/src/main/java/com/itmuch/cloud/study/ZipkinServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0-RC3/mybatis-plus-extension-3.0-RC3.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-trace-zipkin-server-stream-elasticsearch/src/main/java/com/ljm/springcloud/ZipkinServerApplication.java">
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/service/IUserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="425">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-provider-user-trace-zipkin-stream/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0-RC3/mybatis-plus-extension-3.0-RC3.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="175">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-simple-consumer-business-trace-zipkin-stream/src/main/java/com/ljm/springcloud/ConsumerBusinessApplication.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0-RC3/mybatis-plus-extension-3.0-RC3.jar!/com/baomidou/mybatisplus/extension/activerecord/Model.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="186">
+          <caret line="304" column="20" selection-start-line="304" selection-start-column="20" selection-end-line="304" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/entity/SuperEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="300">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/1.2.4.RELEASE/spring-cloud-netflix-eureka-client-1.2.4.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/ErrorCode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="99" column="50" selection-start-line="99" selection-start-column="39" selection-end-line="99" selection-end-column="59" />
+        <state relative-caret-position="100">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.1.7.RELEASE/spring-cloud-commons-1.1.7.RELEASE.jar!/org/springframework/cloud/commons/util/IdUtils.class">
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="20" column="50" lean-forward="true" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
+        <state relative-caret-position="-164">
+          <caret line="14" selection-start-line="14" selection-end-line="19" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/src/main/java/com/ljm/springcloud/EurekaApplication.java">
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="356">
+          <caret line="18" selection-start-line="18" selection-end-line="18" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/java/com/ljm/springcloud/ProviderUserApplication.java">
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="50">
+          <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/SuperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservice-provider-user/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <caret line="10" column="20" selection-start-line="5" selection-start-column="2" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatisplus-spring-boot/src/main/java/com/baomidou/springboot/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#353#380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.23/mysql-connector-java-8.0.23.jar!/com/mysql/cj/jdbc/exceptions/SQLExceptionsMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.0/mybatis-plus-core-3.4.0.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.0/mybatis-plus-extension-3.4.0.jar!/com/baomidou/mybatisplus/extension/service/IService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="33" column="58" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+          <folding>
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/mapper/SuperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.4.0/mybatis-plus-core-3.4.0.jar!/com/baomidou/mybatisplus/core/handlers/MetaObjectHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-24">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/mapper/XcyfUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/controller/XcyfController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/config/MetaObjectHandlerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.0/mybatis-plus-extension-3.4.0.jar!/com/baomidou/mybatisplus/extension/activerecord/Model.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="129" column="13" selection-start-line="129" selection-start-column="13" selection-end-line="129" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.4.0/mybatis-plus-extension-3.4.0.jar!/com/baomidou/mybatisplus/extension/plugins/pagination/Page.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/Xcyf168Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="162" column="28" selection-start-line="162" selection-start-column="28" selection-end-line="162" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3792#3793#0" expanded="true" />
+            <element signature="e#3848#3849#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/DB_SQL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/src/main/java/com/xcyf/springcloud/entity/XcyfUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#806#807#0" expanded="true" />
+            <element signature="e#837#838#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#985#986#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1128#1129#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1280#1281#0" expanded="true" />
+            <element signature="e#1325#1326#0" expanded="true" />
+            <element signature="e#1361#1362#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1467#1468#0" expanded="true" />
+            <element signature="e#1503#1504#0" expanded="true" />
+            <element signature="e#1536#1537#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1613#1614#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1687#1688#0" expanded="true" />
+            <element signature="e#1716#1717#0" expanded="true" />
+            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#1797#1798#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1899#1900#0" expanded="true" />
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#1967#1968#0" expanded="true" />
+            <element signature="e#1997#1998#0" expanded="true" />
+            <element signature="e#2043#2044#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="e#2149#2150#0" expanded="true" />
+            <element signature="e#2199#2200#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2284#2285#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
+            <element signature="e#2385#2386#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+            <element signature="e#2476#2477#0" expanded="true" />
+            <element signature="e#2509#2510#0" expanded="true" />
+            <element signature="e#2559#2560#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="91" column="11" lean-forward="true" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
+        <state relative-caret-position="244">
+          <caret line="17" column="13" selection-start-line="11" selection-start-column="2" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-discovery-eureka/pom.xml">
+    <entry file="file://$PROJECT_DIR$/microservice-provider-xcyf168/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        <state relative-caret-position="319">
+          <caret line="61" column="23" lean-forward="true" selection-start-line="61" selection-start-column="23" selection-end-line="61" selection-end-column="23" />
         </state>
       </provider>
     </entry>

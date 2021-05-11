@@ -1,0 +1,27 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: microservice-provider-xcyf168
+  devtools:
+    restart:
+      enabled: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.51.7.105:3306/zhenai_emotion_offline?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: u_96333
+    password: u_96333
+## mybatis 配置
+mybatis-plus:
+  mapper-locations: classpath:/mapper/*Mapper.xml # 扫描mybatis的实现dao接口*.xml文件
+  type-aliases-package: com.xcyf.springcloud.*.entity #实体类取别名
+  configuration:
+  ## 下划线转驼峰配置
+    map-underscore-to-camel-case: false
+  ## 刷新mapper 调试神器
+  global-config:
+    refresh: true
+## 显示dao 执⾏sql语句
+logging:
+  level:
+   com.xcyf.springcloud.mapper: debug # 改成你的dao接口文件所在包路径可以打印出sql语句
