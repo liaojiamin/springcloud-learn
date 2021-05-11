@@ -17,3 +17,17 @@ CREATE TABLE `XcyfUser` (
   PRIMARY KEY (`userID`),
   KEY `idx_phone` (`phone`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='用户基本信息表';
+
+
+CREATE TABLE `XcyfProduct` (
+	`id` bigint(20) unsigned NOT NULL AUTO_INCREMENT  COMMENT '产品id',
+  `userID` bigint(20) NOT NULL COMMENT '归属用户ID',
+  `pic` varchar(128) DEFAULT NULL COMMENT '产品图片',
+  `name` varchar(128) DEFAULT '' COMMENT '产品名称',
+	`describe` TEXT COMMENT '产品描述信息',
+  `parameter` varchar(128) DEFAULT '' COMMENT '产品参数',
+  `status` int(2) DEFAULT '1' COMMENT '状态：1正常，0限制，-1删除',
+  `createTime` datetime DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
+  `updateTime` datetime DEFAULT NULL COMMENT '更新时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='用户产品信息表';
