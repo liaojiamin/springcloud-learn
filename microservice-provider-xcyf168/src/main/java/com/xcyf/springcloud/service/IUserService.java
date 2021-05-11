@@ -1,6 +1,5 @@
 package com.xcyf.springcloud.service;
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.xcyf.springcloud.entity.XcyfUser;
 
