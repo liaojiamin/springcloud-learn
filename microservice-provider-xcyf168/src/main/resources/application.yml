@@ -11,6 +11,10 @@ spring:
     url: jdbc:mysql://10.51.7.105:3306/zhenai_emotion_offline?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     username: u_96333
     password: u_96333
+  http:
+    multipart:
+      maxFileSize: 100Mb
+      maxRequestSize: 100Mb
 ## mybatis 配置
 mybatis-plus:
   mapper-locations: classpath:/mapper/*Mapper.xml # 扫描mybatis的实现dao接口*.xml文件

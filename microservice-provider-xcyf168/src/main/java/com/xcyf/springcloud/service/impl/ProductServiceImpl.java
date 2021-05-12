@@ -13,6 +13,7 @@ import com.xcyf.springcloud.mapper.XcyfUserMapper;
 import com.xcyf.springcloud.request.AddProductRequest;
 import com.xcyf.springcloud.request.PageListProductRequest;
 import com.xcyf.springcloud.response.BaseResponse;
+import com.xcyf.springcloud.response.ProductDetailResponse;
 import com.xcyf.springcloud.response.errorcode.HeadCode;
 import com.xcyf.springcloud.response.errorcode.ProductError;
 import com.xcyf.springcloud.service.IProductService;
@@ -96,6 +97,23 @@ public class ProductServiceImpl extends ServiceImpl<XcyfProductMapper, XcyfProdu
         }
         IPage<XcyfProduct>  pageLIst = productMapper.selectPage(new Page<XcyfProduct>(page, pageSize), wrapper );
         return pageLIst;
+    }
+
+    @Override
+    public ProductDetailResponse productDetail(Long id, Long userID) {
+        if(id == null || userID == null){
+            BusinessAssert.error(ProductError.PARAM_ERROR);
+        }
+        XcyfUser user = userMapper.selectById(userID);
+        QueryWrapper<XcyfProduct> wrapper = new QueryWrapper<>();
+        if(UserStatusEnum.ORDINARY.getValue() == user.getUserType()){
+            wrapper.eq("userID", user.getUserID());
+        }
+        wrapper.eq("id", id);
+        XcyfProduct product = productMapper.selectOne(wrapper);
+        ProductDetailResponse response = new ProductDetailResponse();
+        response.setXcyfProduct(product);
+        return response;
     }
 }
 

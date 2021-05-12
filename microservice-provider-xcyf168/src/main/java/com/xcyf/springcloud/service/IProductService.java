@@ -6,6 +6,7 @@ import com.xcyf.springcloud.entity.XcyfProduct;
 import com.xcyf.springcloud.request.AddProductRequest;
 import com.xcyf.springcloud.request.PageListProductRequest;
 import com.xcyf.springcloud.response.BaseResponse;
+import com.xcyf.springcloud.response.ProductDetailResponse;
 
 /**
  * @author liaojiamin
@@ -19,4 +20,6 @@ public interface IProductService extends IService<XcyfProduct> {
     BaseResponse updateProduct(AddProductRequest request);
 
     IPage<XcyfProduct> pageList(PageListProductRequest request);
+
+    ProductDetailResponse productDetail(Long id, Long userID);
 }
